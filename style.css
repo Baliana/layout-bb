@@ -37,17 +37,22 @@ header{
     
 }
 .logo2{
-    width: 50px;
-    height: 80px;
-    background-image: url('./novo.png');
+    
+    width: 16px;
+    height: 51px;
+    background-image: url('./Travis_Scott_2015.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    animation: spin 5s linear infinite;
    
-  
     
-    
+}
+@keyframes spin {
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .menu ul{
     display: flex;
